@@ -22,7 +22,7 @@ export default function DashboardLayout({
   return (
     <div>
       <article>{children}</article>
-      <article className="flex flex-col md:flex-row gap-2 justify-center items-center mt-4">
+      <article className="flex flex-col md:flex-row gap-2 justify-center items-center mt-4 mb-4">
         {users}
         {activity}
         {notifications}
